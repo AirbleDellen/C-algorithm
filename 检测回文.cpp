@@ -27,7 +27,7 @@ int main()
 	s->next=NULL;
 	top=s;
 	scanf("%c",&x);
-	while(x!='#')	
+	while(x!='#')	//从栈顶输出（先进的先出）
 	{		
 		s=(node*)malloc(sizeof(node));        
 		n++;                                  
@@ -37,7 +37,7 @@ int main()
 		scanf("%c",&x);
 	}
 	a3=top;
-	while(a3->next!=NULL)
+	while(a3->next!=NULL) //输出堆栈结果
 	{
 		a3=a3->next;
 		printf("%c",a3->data);

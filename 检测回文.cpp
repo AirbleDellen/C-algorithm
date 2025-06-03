@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-//基于堆栈和队列的回文检测
+//基于堆栈和队列的回文
 typedef struct linknode
 {	char data;
 	struct linknode *next;

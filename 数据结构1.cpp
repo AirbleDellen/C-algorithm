@@ -9,7 +9,7 @@ typedef struct linknode
 node *head;
 int n=0;                                   
  
-void CreateList()              /*尾插法建立单链表*/                    
+void CreateList()              
 {
 	node *p,*s;
 	char x;

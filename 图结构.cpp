@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#define MAXLEN 10                       /*图的最多顶点数*/
+#define MAXLEN 10                      
 #define FALSE 0
 #define TRUE 1
 #define QueueSize 30                    /*队列的最大容量数，图的广度优先遍历用到队列*/
